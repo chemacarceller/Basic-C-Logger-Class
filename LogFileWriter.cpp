@@ -1,3 +1,4 @@
+#include "LogFileWritter.h"
 #include <fstream>
 #include <string>
 
