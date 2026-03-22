@@ -1,1 +1,1 @@
-# Basic C++-Logger-Class
+# Basic C++ Logger Class
