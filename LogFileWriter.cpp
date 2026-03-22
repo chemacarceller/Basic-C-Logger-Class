@@ -6,6 +6,7 @@
 namespace py = pybind11;
 */
 
+
 LogFileWriter::LogFileWriter(const std::string &filename) : _filename(filename) {
     // Opening file for writing, that means creates the file or resets it
     std::ofstream file(filename);
@@ -42,4 +43,3 @@ PYBIND11_MODULE(LogFileWriter, m) {
     .def("write_line", &LogFileWriter::write_line); // Bind method
 }
 */
-
