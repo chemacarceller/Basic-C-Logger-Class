@@ -1,6 +1,4 @@
 #include "LogFileWriter.h"
-#include <fstream>
-#include <string>
 
 /*
 // For using it in Python 

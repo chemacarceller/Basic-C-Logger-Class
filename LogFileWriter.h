@@ -1,6 +1,9 @@
 #ifndef LOG_FILE_WRITER_H
 #define LOG_FILE_WRITER_H
 
+#include <fstream>
+#include <string>
+
 class LogFileWriter {
 
     private:
